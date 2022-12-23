@@ -11,5 +11,9 @@ function preload() {
     car1Img = loadImage("img/car-1.png");
     car2Img = loadImage("img/car-2.png");
     car3Img = loadImage("img/car-3.png");
-    carsImg = [car1Img, car2Img, car3Img];
+    carsImg = [car1Img, car2Img, car3Img, car1Img, car2Img, car3Img];
+    //sounds
+    backgroundSound = loadSound("sounds/background-sound.mp3");
+    hitSound = loadSound("sounds/hit.mp3");
+    scoreSound = loadSound("sounds/points.wav");
   }

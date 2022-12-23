@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(500, 400);
+  backgroundSound.loop();
 }
 
 function draw() {
@@ -9,4 +10,7 @@ function draw() {
   showCars();
   carMove();
   carInitPosition();
+  checkHit();
+  showPoints();
+  score();
 }
