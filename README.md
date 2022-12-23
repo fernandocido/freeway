@@ -1,5 +1,6 @@
 
 # freeway
+![screenshot](https://github.com/fernandocido/freeway/blob/main/img/freeway-screenshot.jpg)
 
 Trying to replicate a [Freeway](https://en.wikipedia.org/wiki/Freeway_(video_game)) Game with JavaScript to be played at:
 
